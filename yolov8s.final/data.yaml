@@ -1,0 +1,7 @@
+train: ../train/images
+test: ../test/images
+val: ../valid/images
+
+
+nc: 3
+names: ['Empty Chair', 'Idle', 'Working']
