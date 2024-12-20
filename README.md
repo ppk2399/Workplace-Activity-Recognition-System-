@@ -1,0 +1,1 @@
+The business aims to improve employee productivity by providing real-time insights while minimizing privacy intrusion, achieving high employee satisfaction, 90% accuracy in activity classification, and scalable cost-efficient operations.
