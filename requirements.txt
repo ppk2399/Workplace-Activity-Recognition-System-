@@ -3,3 +3,7 @@ ultralytics==8.0.0
 opencv-python
 opencv-contrib-python
 opencv-python==4.5.5.62
+numpy
+pandas
+streamlit
+torch

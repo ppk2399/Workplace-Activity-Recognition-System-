@@ -80,25 +80,5 @@ if uploaded_file is not None:
     os.remove(video_path)
     os.remove(output_path)
     
-    detections = results[0].boxes  
 
-    if len(detections) > 0:
-
-        
-
-        detection_data = {
-
-            'Class': detections.cls.cpu().numpy(),
-
-            'Confidence': detections.conf.cpu().numpy(),
-
-            'X_min': detections.xyxy[:, 0].cpu().numpy(),  
-
-            'Y_min': detections.xyxy[:, 1].cpu().numpy(),  
-
-            'X_max': detections.xyxy[:, 2].cpu().numpy(),
-
-            'Y_max': detections.xyxy[:, 3].cpu().numpy(),  
-
-        }
 
